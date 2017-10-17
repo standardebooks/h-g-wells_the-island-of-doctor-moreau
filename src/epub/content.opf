@@ -32,7 +32,7 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Island of Doctor Moreau&lt;/i&gt; is the narration of Edward Prendick, a shipwrecked man who finds himself on a mysterious island full of humanoid animal creatures. He comes to find that these creatures are the work of Dr. Moreau, a man who experiments in vivisection, and his assistant Montgomery.&lt;/p&gt;
-			&lt;p&gt;The story of Dr. Moreau's island began as an article in the January, 1985 issue of <i epub:type="se:name.publication.magazine">Saturday Review</i>. It was later adapted into a novel using the narrative form of writing.&lt;/p&gt;
+			&lt;p&gt;The story of Dr. Moreau's island began as an article in the January, 1985 issue of &lt;i&gt;Saturday Review&lt;/i&gt;. It was later adapted into a novel using the narrative form of writing.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>

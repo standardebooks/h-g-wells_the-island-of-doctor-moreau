@@ -5,14 +5,14 @@ abbr.name{
 	white-space: nowrap;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	display: block;
 	font-size: .75em;
+	font-weight: normal;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
 	font-weight: normal;
 }
 

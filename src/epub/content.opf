@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/h-g-wells/the-island-of-doctor-moreau</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2017-10-19T17:54:53Z</dc:date>
+		<meta property="dcterms:modified">2017-10-19T17:54:53Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -19,6 +19,13 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">The Island of Doctor Moreau</dc:title>
 		<meta property="file-as" refines="#title">Island of Doctor Moreau, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Possibility</dc:title>
+		<meta property="file-as" refines="#subtitle">Possibility, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Island of Doctor Moreau: A Possibility</dc:title>
+		<meta property="file-as" refines="#fulltitle">Island of Doctor Moreau, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<dc:subject id="subject-2">Shipwreck survival -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Animal experimentation -- Fiction</dc:subject>
@@ -32,12 +39,12 @@
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;i&gt;The Island of Doctor Moreau&lt;/i&gt; is the narration of Edward Prendick, a shipwrecked man who finds himself on a mysterious island full of humanoid animal creatures. He comes to find that these creatures are the work of Dr. Moreau, a man who experiments in vivisection, and his assistant Montgomery.&lt;/p&gt;
-			&lt;p&gt;The story of Dr. Moreau’s island began as an article in the January, 1985 issue of &lt;i&gt;Saturday Review&lt;/i&gt;. It was later adapted into a novel using the narrative form of writing.&lt;/p&gt;
+			&lt;p&gt;The story of Dr. Moreau’s island began as an article in the January, 1985 issue of &lt;i&gt;Saturday Review&lt;/i&gt;. It was later adapted into a novel. Its themes reflect concerns growing in the society of the day, like the cruelty of vivisection, degenerationism, and the theory of evolution.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/159</dc:source>
-		<meta property="se:word-count">44811</meta>
+		<meta property="se:word-count">43952</meta>
 		<meta property="se:reading-ease.flesch">72.26</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Island_of_Doctor_Moreau</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/h-g-wells_the-island-of-doctor-moreau</meta>
@@ -69,6 +76,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>

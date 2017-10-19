@@ -5,6 +5,10 @@ abbr.name{
 	white-space: nowrap;
 }
 
+abbr.compass{
+	white-space: nowrap;
+}
+
 section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
 	display: block;
 	font-size: .75em;

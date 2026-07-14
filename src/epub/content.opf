@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">The Island of Doctor Moreau: A Possibility</dc:title>
 		<meta property="file-as" refines="#fulltitle">Island of Doctor Moreau, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Science fiction</dc:subject>
 		<dc:subject id="subject-2">Shipwreck survival -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Animal experimentation -- Fiction</dc:subject>

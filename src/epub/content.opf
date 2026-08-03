@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/h-g-wells/the-island-of-doctor-moreau</dc:identifier>
 		<dc:date>2017-10-19T17:54:53Z</dc:date>
@@ -50,11 +50,11 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008104288</meta>
 		<meta property="schema:genre">Science Fiction</meta>
-		<dc:description id="description">A shipwrecked man is rescued by a boat and left on a strange island owned by a physiologist who experiments in vivisection.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A shipwrecked man is rescued by a boat and left on a strange island owned by a physiologist who experiments in vivisection.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;i&gt;The Island of Doctor Moreau&lt;/i&gt; is the narration of Edward Prendick, a shipwrecked man who finds himself on a mysterious island full of humanoid animal creatures. He comes to find that these creatures are the work of &lt;abbr&gt;Dr.&lt;/abbr&gt; Moreau, a man who experiments in vivisection, and his assistant Montgomery.&lt;/p&gt;
 			&lt;p&gt;The story of &lt;abbr&gt;Dr.&lt;/abbr&gt; Moreau’s island began as an article in the January, 1895 issue of &lt;i&gt;Saturday Review&lt;/i&gt;. It was later adapted into a novel. Its themes reflect concerns growing in the society of the day, like the cruelty of vivisection, degenerationism, and the theory of evolution.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/159</dc:source>
 		<dc:source>https://archive.org/details/islandofdoctormo00welluoft</dc:source>
